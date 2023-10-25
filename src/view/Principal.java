@@ -3,14 +3,14 @@ package view;
 
 import javax.swing.JOptionPane;
 
-import controller.PlaylistControle;
+import controller.playlistControle;
 import model.Lista;
 import model.Musica;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		PlaylistControle p = new PlaylistControle();
+		playlistControle p = new playlistControle();
 		Lista<Musica> l = new Lista<Musica>();
 		int x = 0;
 		while (x!=9){
